@@ -1,0 +1,37 @@
+html{
+    scroll-behavior: smooth;
+    transition: 0.5;
+    overflow-x: hidden;
+}
+
+body{
+    scroll-behavior: smooth;
+    transition: 0.5;
+    overflow-x: hidden;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav, footer {
+    background-color: rgb(0, 146, 85) !important;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#text1, #text2, #text3{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#text1 button{
+    display: table;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
